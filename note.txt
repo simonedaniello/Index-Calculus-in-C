@@ -1,0 +1,337 @@
+
+//--------------------------------------------------------------------------------------------------------------------------------- 15 digits - 3 secondi
+
+TARGET = indexCalculus
+LIBS = -lgmp -lm -lpthread 
+CC = gcc
+CFLAGS =  -Wall -Wextra -DB=0 -DP=\"663424523745421\" -DROOT=6 -DWANTED=42 -DVERBOSE=1  -O2 -o -lgmp -lpthread -lm
+
+.PHONY: default all clean
+
+default: $(TARGET)
+all: default
+
+OBJECTS = $(patsubst %.c, %.o, $(wildcard *.c))
+HEADERS = $(wildcard *.h)
+
+%.o: %.c $(HEADERS)
+	$(CC) $(CFLAGS) -c $< -o $@
+
+.PRECIOUS: $(TARGET) $(OBJECTS)
+
+$(TARGET): $(OBJECTS)
+	$(CC) $(OBJECTS) -Wall $(LIBS) -o $@
+
+clean:
+	-rm -f *.o
+	-rm -f $(TARGET)
+	clear
+	
+//--------------------------------------------------------------------------------------------------------------------------------- 20 digits - 40 secondi
+
+
+TARGET = indexCalculus
+LIBS = -lgmp -lm -lpthread 
+CC = gcc
+CFLAGS =  -Wall -Wextra -DB=0 -DP=\"48112959837082048697\" -DROOT=3 -DWANTED=42 -DVERBOSE=1  -O2 -o -lgmp -lpthread -lm
+
+.PHONY: default all clean
+
+default: $(TARGET)
+all: default
+
+OBJECTS = $(patsubst %.c, %.o, $(wildcard *.c))
+HEADERS = $(wildcard *.h)
+
+%.o: %.c $(HEADERS)
+	$(CC) $(CFLAGS) -c $< -o $@
+
+.PRECIOUS: $(TARGET) $(OBJECTS)
+
+$(TARGET): $(OBJECTS)
+	$(CC) $(OBJECTS) -Wall $(LIBS) -o $@
+
+clean:
+	-rm -f *.o
+	-rm -f $(TARGET)
+	clear
+
+//--------------------------------------------------------------------------------------------------------------------------------- 23 digits - 213 secondi
+
+TARGET = indexCalculus
+LIBS = -lgmp -lm -lpthread 
+CC = gcc
+CFLAGS =  -Wall -Wextra -DB=0 -DP=\"19171311753235711131719\" -DROOT=3 -DWANTED=42 -DVERBOSE=1  -O2 -o -lgmp -lpthread -lm
+
+.PHONY: default all clean
+
+default: $(TARGET)
+all: default
+
+OBJECTS = $(patsubst %.c, %.o, $(wildcard *.c))
+HEADERS = $(wildcard *.h)
+
+%.o: %.c $(HEADERS)
+	$(CC) $(CFLAGS) -c $< -o $@
+
+.PRECIOUS: $(TARGET) $(OBJECTS)
+
+$(TARGET): $(OBJECTS)
+	$(CC) $(OBJECTS) -Wall $(LIBS) -o $@
+
+clean:
+	-rm -f *.o
+	-rm -f $(TARGET)
+	clear
+
+
+	//--------------------------------------------------------------------------------------------------------------------------------- 20 digits - 68 secondi
+
+TARGET = indexCalculus
+LIBS = -lgmp -lm -lpthread 
+CC = gcc
+CFLAGS =  -Wall -Wextra -DB=0 -DP=\"40206835204840513073\" -DROOT=3 -DWANTED=42 -DVERBOSE=1  -O2 -o -lgmp -lpthread -lm
+
+.PHONY: default all clean
+
+default: $(TARGET)
+all: default
+
+OBJECTS = $(patsubst %.c, %.o, $(wildcard *.c))
+HEADERS = $(wildcard *.h)
+
+%.o: %.c $(HEADERS)
+	$(CC) $(CFLAGS) -c $< -o $@
+
+.PRECIOUS: $(TARGET) $(OBJECTS)
+
+$(TARGET): $(OBJECTS)
+	$(CC) $(OBJECTS) -Wall $(LIBS) -o $@
+
+clean:
+	-rm -f *.o
+	-rm -f $(TARGET)
+	clear
+
+	//--------------------------------------------------------------------------------------------------------------------------------- 21 digits - 47 secondi
+
+TARGET = indexCalculus
+LIBS = -lgmp -lm -lpthread 
+CC = gcc
+CFLAGS =  -Wall -Wextra -DB=0 -DP=\"123456789878987654321\" -DROOT=6 -DWANTED=42 -DVERBOSE=1  -O2 -o -lgmp -lpthread -lm
+
+.PHONY: default all clean
+
+default: $(TARGET)
+all: default
+
+OBJECTS = $(patsubst %.c, %.o, $(wildcard *.c))
+HEADERS = $(wildcard *.h)
+
+%.o: %.c $(HEADERS)
+	$(CC) $(CFLAGS) -c $< -o $@
+
+.PRECIOUS: $(TARGET) $(OBJECTS)
+
+$(TARGET): $(OBJECTS)
+	$(CC) $(OBJECTS) -Wall $(LIBS) -o $@
+
+clean:
+	-rm -f *.o
+	-rm -f $(TARGET)
+	clear
+
+	//--------------------------------------------------------------------------------------------------------------------------------- 21 digits - 60 secondi
+
+TARGET = indexCalculus
+LIBS = -lgmp -lm -lpthread 
+CC = gcc
+CFLAGS =  -Wall -Wextra -DB=0 -DP=\"666276812967623946997\" -DROOT=2 -DWANTED=42 -DVERBOSE=1  -O2 -o -lgmp -lpthread -lm
+
+.PHONY: default all clean
+
+default: $(TARGET)
+all: default
+
+OBJECTS = $(patsubst %.c, %.o, $(wildcard *.c))
+HEADERS = $(wildcard *.h)
+
+%.o: %.c $(HEADERS)
+	$(CC) $(CFLAGS) -c $< -o $@
+
+.PRECIOUS: $(TARGET) $(OBJECTS)
+
+$(TARGET): $(OBJECTS)
+	$(CC) $(OBJECTS) -Wall $(LIBS) -o $@
+
+clean:
+	-rm -f *.o
+	-rm -f $(TARGET)
+	clear
+
+	//--------------------------------------------------------------------------------------------------------------------------------- 23 digits - 140 secondi
+
+TARGET = indexCalculus
+LIBS = -lgmp -lm -lpthread 
+CC = gcc
+CFLAGS =  -Wall -Wextra -DB=0 -DP=\"22360679774997896964091\" -DROOT=2 -DWANTED=42 -DVERBOSE=1  -O2 -o -lgmp -lpthread -lm
+
+.PHONY: default all clean
+
+default: $(TARGET)
+all: default
+
+OBJECTS = $(patsubst %.c, %.o, $(wildcard *.c))
+HEADERS = $(wildcard *.h)
+
+%.o: %.c $(HEADERS)
+	$(CC) $(CFLAGS) -c $< -o $@
+
+.PRECIOUS: $(TARGET) $(OBJECTS)
+
+$(TARGET): $(OBJECTS)
+	$(CC) $(OBJECTS) -Wall $(LIBS) -o $@
+
+clean:
+	-rm -f *.o
+	-rm -f $(TARGET)
+	clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	N = 2Q + 1
+
+
+	//--------------------------------------------------------------------------------------------------------------------------------- 21 digits - 46 secondi
+
+TARGET = indexCalculus
+LIBS = -lgmp -lm -lpthread 
+CC = gcc
+CFLAGS =  -Wall -Wextra -DB=0 -DP=\"200000000000000002487\" -DROOT=5 -DWANTED=42 -DVERBOSE=1  -O2 -o -lgmp -lpthread -lm
+
+.PHONY: default all clean
+
+default: $(TARGET)
+all: default
+
+OBJECTS = $(patsubst %.c, %.o, $(wildcard *.c))
+HEADERS = $(wildcard *.h)
+
+%.o: %.c $(HEADERS)
+	$(CC) $(CFLAGS) -c $< -o $@
+
+.PRECIOUS: $(TARGET) $(OBJECTS)
+
+$(TARGET): $(OBJECTS)
+	$(CC) $(OBJECTS) -Wall $(LIBS) -o $@
+
+clean:
+	-rm -f *.o
+	-rm -f $(TARGET)
+	clear
+
+	//--------------------------------------------------------------------------------------------------------------------------------- 22 digits - 118 secondi
+
+TARGET = indexCalculus
+LIBS = -lgmp -lm -lpthread 
+CC = gcc
+CFLAGS =  -Wall -Wextra -DB=0 -DP=\"2000000000000000002127\" -DROOT=5 -DWANTED=42 -DVERBOSE=1  -O2 -o -lgmp -lpthread -lm
+
+.PHONY: default all clean
+
+default: $(TARGET)
+all: default
+
+OBJECTS = $(patsubst %.c, %.o, $(wildcard *.c))
+HEADERS = $(wildcard *.h)
+
+%.o: %.c $(HEADERS)
+	$(CC) $(CFLAGS) -c $< -o $@
+
+.PRECIOUS: $(TARGET) $(OBJECTS)
+
+$(TARGET): $(OBJECTS)
+	$(CC) $(OBJECTS) -Wall $(LIBS) -o $@
+
+clean:
+	-rm -f *.o
+	-rm -f $(TARGET)
+	clear
+
+
+
+	//--------------------------------------------------------------------------------------------------------------------------------- 23 digits - 157 secondi
+
+TARGET = indexCalculus
+LIBS = -lgmp -lm -lpthread 
+CC = gcc
+CFLAGS =  -Wall -Wextra -DB=0 -DP=\"20000000156692477485287\" -DROOT=5 -DWANTED=42 -DVERBOSE=1  -O2 -o -lgmp -lpthread -lm
+
+.PHONY: default all clean
+
+default: $(TARGET)
+all: default
+
+OBJECTS = $(patsubst %.c, %.o, $(wildcard *.c))
+HEADERS = $(wildcard *.h)
+
+%.o: %.c $(HEADERS)
+	$(CC) $(CFLAGS) -c $< -o $@
+
+.PRECIOUS: $(TARGET) $(OBJECTS)
+
+$(TARGET): $(OBJECTS)
+	$(CC) $(OBJECTS) -Wall $(LIBS) -o $@
+
+clean:
+	-rm -f *.o
+	-rm -f $(TARGET)
+	clear
+
+
+	//--------------------------------------------------------------------------------------------------------------------------------- 24 digits - 355 secondi
+
+TARGET = indexCalculus
+LIBS = -lgmp -lm -lpthread 
+CC = gcc
+CFLAGS =  -Wall -Wextra -DB=0 -DP=\"200000000142963550844099\" -DROOT=7 -DWANTED=42 -DVERBOSE=1  -O2 -o -lgmp -lpthread -lm
+
+.PHONY: default all clean
+
+default: $(TARGET)
+all: default
+
+OBJECTS = $(patsubst %.c, %.o, $(wildcard *.c))
+HEADERS = $(wildcard *.h)
+
+%.o: %.c $(HEADERS)
+	$(CC) $(CFLAGS) -c $< -o $@
+
+.PRECIOUS: $(TARGET) $(OBJECTS)
+
+$(TARGET): $(OBJECTS)
+	$(CC) $(OBJECTS) -Wall $(LIBS) -o $@
+
+clean:
+	-rm -f *.o
+	-rm -f $(TARGET)
+	clear
+
+
